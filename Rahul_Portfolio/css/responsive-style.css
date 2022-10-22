@@ -1,0 +1,74 @@
+@media (max-width: 1199.5px){
+    /* Custom CSS */
+    h1{
+        font-size: 3.75rem;
+    }
+    h2{
+        font-size: 2.187rem;
+        text-transform: uppercase;
+    }
+    h3{
+        font-size: 1.875rem;
+        line-height: 2.6875rem;
+    }
+    h5{
+        font-size: 1.0625rem;
+    }
+
+    /* Blog */
+}
+
+@media (max-width: 991px) {
+     /* navbar */
+     .header-scrolled{
+        height: auto;
+     }
+     .header_wrapper .navbar-collapse{
+        margin-top: 0.125rem;
+     }
+     .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        /* background-color: var(--bg-white); */
+        background-color: rgba(0, 0, 0, 0.079);
+        backdrop-filter: blur(5px);
+        padding-bottom: 0.9375rem;
+     }
+     .header_wrapper .nav-item .nav-link{
+        margin-top: 0.9375rem;
+     }
+}
+
+@media (max-width: 767px) {
+    /* Custom CSS */
+    h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    h2{
+        font-size: 1.87rem;
+        line-height: 2.375rem;
+    }
+    h5{
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+    }
+    body{
+        font-family: var(--seconday-font);
+        background-image: url('../img/body-bg.png.webp');
+        background-size: cover;
+        background: #000;
+        /* background-repeat: repeat; */
+        /* background-attachment: fixed; */
+        /* background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(25,25,25,1) 100%); */
+    }
+
+    /* About */
+}
+
+@media (max-width: 575.5px) {
+    /* Blog */
+}
+
+@media (max-width: 390px) {
+    /* Banner */
+}
